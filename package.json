@@ -7,9 +7,7 @@
   "scripts": {
     "test": "jest",
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seeds.js",
-    "heroku-postbuild": "npm run seed"
+    "watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +15,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^6.0.13",
-    "seed": "^0.4.4"
+    "seed": "^0.4.4",
+    "seed-mongodb": "^0.6.0"
   },
   "devDependencies": {
     "@shelf/jest-mongodb": "^1.1.5",
