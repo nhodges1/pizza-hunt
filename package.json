@@ -6,10 +6,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seeds.js",
-    "heroku-postbuild": "npm run seed"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
